@@ -32,4 +32,4 @@ Bradley Gamboa
 
 ## License
 
-This project is licensed under the [NAME HERE] License
+This project is licensed under the MIT License
