@@ -1,0 +1,14 @@
+<footer>
+    <p>&copy; <span id="copyright-year"><?php echo date('Y'); ?></span> Your Website Name. All Rights Reserved.</p>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentYear = new Date().getFullYear();
+        const copyrightYearElement = document.getElementById('copyright-year');
+        
+        if (copyrightYearElement) {
+            copyrightYearElement.textContent = currentYear;
+        }
+    });
+</script>
